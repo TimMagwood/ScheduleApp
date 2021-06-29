@@ -1,6 +1,5 @@
 C:\Personal\ScheduleApp\ScheduleWebApplication\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Personal\ScheduleApp\ScheduleWebApplication\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Personal\ScheduleApp\ScheduleWebApplication\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Personal\ScheduleApp\ScheduleWebApplication\bin\Debug\netcoreapp3.1\ScheduleWebApplication.exe
 C:\Personal\ScheduleApp\ScheduleWebApplication\bin\Debug\netcoreapp3.1\ScheduleWebApplication.deps.json
 C:\Personal\ScheduleApp\ScheduleWebApplication\bin\Debug\netcoreapp3.1\ScheduleWebApplication.runtimeconfig.json
@@ -18,3 +17,24 @@ C:\Personal\ScheduleApp\ScheduleWebApplication\obj\Debug\netcoreapp3.1\staticweb
 C:\Personal\ScheduleApp\ScheduleWebApplication\obj\Debug\netcoreapp3.1\ScheduleWebApplication.dll
 C:\Personal\ScheduleApp\ScheduleWebApplication\obj\Debug\netcoreapp3.1\ScheduleWebApplication.pdb
 C:\Personal\ScheduleApp\ScheduleWebApplication\obj\Debug\netcoreapp3.1\ScheduleWebApplication.genruntimeconfig.cache
+C:\Personal\ScheduleApp\ScheduleWebApplication\obj\Debug\netcoreapp3.1\scopedcss\bundle\ScheduleWebApplication.styles.css
+D:\Personal Projects\ScheduleApp\ScheduleWebApplication\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Personal Projects\ScheduleApp\ScheduleWebApplication\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Personal Projects\ScheduleApp\ScheduleWebApplication\bin\Debug\netcoreapp3.1\ScheduleWebApplication.exe
+D:\Personal Projects\ScheduleApp\ScheduleWebApplication\bin\Debug\netcoreapp3.1\ScheduleWebApplication.deps.json
+D:\Personal Projects\ScheduleApp\ScheduleWebApplication\bin\Debug\netcoreapp3.1\ScheduleWebApplication.runtimeconfig.json
+D:\Personal Projects\ScheduleApp\ScheduleWebApplication\bin\Debug\netcoreapp3.1\ScheduleWebApplication.runtimeconfig.dev.json
+D:\Personal Projects\ScheduleApp\ScheduleWebApplication\bin\Debug\netcoreapp3.1\ScheduleWebApplication.dll
+D:\Personal Projects\ScheduleApp\ScheduleWebApplication\bin\Debug\netcoreapp3.1\ScheduleWebApplication.pdb
+D:\Personal Projects\ScheduleApp\ScheduleWebApplication\obj\Debug\netcoreapp3.1\ScheduleWebApplication.csprojAssemblyReference.cache
+D:\Personal Projects\ScheduleApp\ScheduleWebApplication\obj\Debug\netcoreapp3.1\ScheduleWebApplication.AssemblyInfoInputs.cache
+D:\Personal Projects\ScheduleApp\ScheduleWebApplication\obj\Debug\netcoreapp3.1\ScheduleWebApplication.AssemblyInfo.cs
+D:\Personal Projects\ScheduleApp\ScheduleWebApplication\obj\Debug\netcoreapp3.1\ScheduleWebApplication.csproj.CoreCompileInputs.cache
+D:\Personal Projects\ScheduleApp\ScheduleWebApplication\obj\Debug\netcoreapp3.1\ScheduleWebApplication.MvcApplicationPartsAssemblyInfo.cache
+D:\Personal Projects\ScheduleApp\ScheduleWebApplication\obj\Debug\netcoreapp3.1\staticwebassets\ScheduleWebApplication.StaticWebAssets.Manifest.cache
+D:\Personal Projects\ScheduleApp\ScheduleWebApplication\obj\Debug\netcoreapp3.1\staticwebassets\ScheduleWebApplication.StaticWebAssets.xml
+D:\Personal Projects\ScheduleApp\ScheduleWebApplication\obj\Debug\netcoreapp3.1\scopedcss\bundle\ScheduleWebApplication.styles.css
+D:\Personal Projects\ScheduleApp\ScheduleWebApplication\obj\Debug\netcoreapp3.1\ScheduleWebApplication.RazorTargetAssemblyInfo.cache
+D:\Personal Projects\ScheduleApp\ScheduleWebApplication\obj\Debug\netcoreapp3.1\ScheduleWebApplication.dll
+D:\Personal Projects\ScheduleApp\ScheduleWebApplication\obj\Debug\netcoreapp3.1\ScheduleWebApplication.pdb
+D:\Personal Projects\ScheduleApp\ScheduleWebApplication\obj\Debug\netcoreapp3.1\ScheduleWebApplication.genruntimeconfig.cache

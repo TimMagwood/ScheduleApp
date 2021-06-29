@@ -13,6 +13,11 @@
     $("#loadButton").click(async e => {
         // If not loaded, retrieve task data from GitHub
         if (sessionStorage.getItem("taskData") === null) {
+            // Data is accessed but file is in format for students
+            // TO DO:
+            //      - Write JSON File that fits format for tasks (categories, descriptions, etc.)
+            //      - Put the file on GitHub with sample data
+            //      - Find a way to make this editable by user
             const url = "https://raw.githubusercontent.com/elauersen/info3070/master/jqueryex5.json";
             $("#results").text('Locating student data on GitHub, please wait...');
 
@@ -41,8 +46,7 @@
 
         $("#taskList").html(html);
         $("#loadButton").hide();
-        $("#addButton").show();
-        $("#removeButton").show();
+        $("#inputStuff").show();
     }); // loadButton.click()
 
     // Register list item click
@@ -53,21 +57,27 @@
 
     // Add button event handler
     $("#addButton").click(e => {
-        if (data.length > 0) {
-            const task = data[data.length - 1];
-            data.push({ "id": task.id + 101, "category": "new", "taskDescription": "task" });
-            $("#results").text(`adding task ${task.id + 101}`);
-        } else {
-            data.push({ "id": 101, "category": "new", "taskDescription": "task" });
+        const category = $("#txtCategory").val();
+        const description = $("#txtDescription").val();
+
+        if (category.length > 0 && description.length > 0) {
+            if (data.length > 0) {
+                const task = data[data.length - 1];
+                data.push({ "id": task.id + 101, "category": category, "taskDescription": description });
+                $("#results").text(`adding task ${task.id + 101}`);
+            } else {
+                data.push({ "id": 101, "category": category, "taskDescription": description });
+            }
+
+            $("#txtCategory").val("");
+            $("#txtDescription").val("");
+            sessionStorage.setItem("taskData", JSON.stringify(data));
+            let html = "";
+            data.map(task => {
+                html += `<div id="${task.id}"class="list-group-item">${task.category},${task.taskDescription}</div>`;
+            });
+            $("#taskList").html(html);
         }
-        sessionStorage.setItem("taskData", JSON.stringify(data));
-        let html = "";
-        data.map(task => {
-            html += `<div id="${task.id}"
-                        class="list-group-item">${task.category},${task.taskDescription}
-                    </div>`;
-        });
-        $("#taskList").html(html);
     }); // addButton.click()
 
     // Remove button event handler
@@ -85,7 +95,7 @@
             });
             $("#taskList").html(html);
         } else {
-            $("#results").text(`no students to remove`);
+            $("#results").text(`no tasks to remove`);
         }
     }); // Remove button event handler
 
